@@ -7,7 +7,7 @@
 #define STR(x) #x
 #define XSTR(x) STR(x)
 
-static json_object *neighbours(void) {
+static struct json_object *neighbours(void) {
   struct json_object *obj = json_object_new_object();
 
   FILE *f;

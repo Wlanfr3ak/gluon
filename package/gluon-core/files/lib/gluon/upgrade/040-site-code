@@ -1,0 +1,6 @@
+#!/usr/bin/lua
+
+local sysconfig = require 'gluon.sysconfig'
+local site = require 'gluon.site_config'
+
+sysconfig.site_code = site.site_code
